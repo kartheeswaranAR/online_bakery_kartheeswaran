@@ -1,0 +1,80 @@
+*{
+  background-color: rgb(208,245,237);
+}
+
+.navbar{
+    background-color: rgb(60,194,160);
+    text-align: center;
+    font-size: xx-large;
+    font-weight: lighter;
+    font-family: cursive;
+    font-style: italic;
+    border-radius: 1in;
+    width: -webkit-fill-available;
+}
+
+.header{
+  
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  
+  flex-direction: row;
+  
+  align-items: center;
+}
+.nav-link{
+  background-color: rgb(60,194,160);
+  color: black;
+  
+}
+
+.btnsubmit{
+  background-color: rgb(60,194,160);
+  width: 128px;
+  height: 44px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: lighter;
+  margin-left: 356px;
+  margin-right: -276px;
+}
+
+.container{
+  align-content: center;
+  margin-left: auto;
+  margin-top: auto;
+}
+.inpt{
+  background-color:  rgb(145,217,187);
+  border-style: ridge;
+  input-security: auto;
+}
+.Home{
+  color: black;
+  font-size: 100px;
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+.images{
+  position: relative;
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  }
+.row ::after{
+    position: relative;
+    content: "";
+    clear: both;
+    display: table;
+  }
+.row{
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -251px;
+    margin-left: 316px;
+  }
