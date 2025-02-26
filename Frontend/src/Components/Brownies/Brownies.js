@@ -1,5 +1,5 @@
 // import React from 'react'
-import imagedata from '../Server/db.json'
+import imagedata from '../../imagedb.json'
 // import { Axios } from 'axios'
 
 function Brownies(){
